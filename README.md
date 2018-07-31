@@ -61,19 +61,19 @@ As a Visitor,
     I cannot see the form to create new genres,
       And I do not have access to any routes that could create a genre.
     And each genre's name should be a link to that genre's show page. -->
-<!-- 
+<!--
 Testing requirements:
 - I should see at least 2 genres listed
 - All users of the web site see the genres' names as links -->
 User Story 6:
-
+<!--
 As a Visitor,
   When I visit a genre show page,
-    I see all songs associated with that genre listed on the page.
+    I see all songs associated with that genre listed on the page. -->
 
-Testing requirements:
+<!-- Testing requirements:
 - I should see at least 2 songs listed for a genre
-- Also include 1 or more songs that are NOT associated with this genre and ensure
+- Also include 1 or more songs that are NOT associated with this genre and ensure -->
   they do not appear on the page
 User Story 7:
 

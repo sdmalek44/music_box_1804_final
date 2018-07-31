@@ -4,6 +4,7 @@ class CreateSongs < ActiveRecord::Migration[5.1]
       t.string  :title
       t.integer :length
       t.integer :play_count
+      t.integer :rating
 
       t.timestamps
     end

@@ -39,6 +39,7 @@ group :development, :test do
   gem 'pry'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'shoulda-matchers'
+  gem 'database_cleaner'
 end
 
 group :development do

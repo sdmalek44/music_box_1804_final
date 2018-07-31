@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   end
 
   resources :songs, only: [:index]
-  
+
   resources :playlists
 
   resources :users, only: [:new, :create, :show]
@@ -22,4 +22,5 @@ Rails.application.routes.draw do
   end
 
   resources :carts, only: [:create]
+  resources :genres, only: [:index]
 end

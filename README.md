@@ -19,20 +19,20 @@ User Story 1:
 
 
 
-As a Visitor,
+<!-- As a Visitor,
   When I visit a song show page,
-    I see the numeric rating for this song
+    I see the numeric rating for this song -->
 
 Testing requirements:
 - rating should be an integer attribute (from 1 to 5)
 User Story 2:
-
+<!--
 As a Visitor,
   When I visit the genre index page,
-    I see all genres in the database.
-
+    I see all genres in the database. -->
+<!--
 Testing requirements:
-- users should see at least 2 genres listed on the page
+- users should see at least 2 genres listed on the page -->
 Admin User Stories
 User Story 3:
 

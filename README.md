@@ -86,16 +86,16 @@ As a Visitor,
 - I should see at least 2 genres listed for a song
 - Also include 1 or more genres that are NOT associated with this song and ensure -->
   <!-- they do not appear on the page -->
-User Story 8:
+<!-- User Story 8:
 
 As a Visitor,
   When I visit a genre show page,
-    I see the average rating for all songs in this genre
+    I see the average rating for all songs in this genre -->
 
-Testing requirements:
+<!-- Testing requirements:
 - I should add at least 2 songs for this genre
 - Also include 1 or more songs NOT associated with this genre to ensure these
-  other songs are not included in the average rating
+  other songs are not included in the average rating -->
 Extensions
 If you have finished ALL previous stories fully but your assessment time is not yet over, please continue on these extra stories; there are no extra points for completing these, it's to avoid disruption in the class while others are still working.
 

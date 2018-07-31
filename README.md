@@ -23,9 +23,9 @@ User Story 1:
   When I visit a song show page,
     I see the numeric rating for this song -->
 
-Testing requirements:
+<!-- Testing requirements:
 - rating should be an integer attribute (from 1 to 5)
-User Story 2:
+User Story 2: -->
 <!--
 As a Visitor,
   When I visit the genre index page,
@@ -33,14 +33,14 @@ As a Visitor,
 <!--
 Testing requirements:
 - users should see at least 2 genres listed on the page -->
-Admin User Stories
+<!-- Admin User Stories
 User Story 3:
 
 As an admin user,
   When I visit the same genre index page that visitors see,
   I see the same information visitors see,
-    And I also see a form to create a new genre.
-
+    And I also see a form to create a new genre. -->
+<!-- 
 Testing requirements:
 - users should see at least 2 genres listed on the page
 User Story 4:
@@ -49,7 +49,7 @@ As an admin user,
   When I visit the genre index page,
     And I fill out the form with a new genre's name and submit that form,
   I return to the genre index page,
-    And I see all previous genres and the new genre I have just created.
+    And I see all previous genres and the new genre I have just created. -->
 
 Testing requirements:
 - I should see at least 2 previous genres listed plus the new genre

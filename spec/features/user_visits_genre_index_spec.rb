@@ -27,9 +27,19 @@ describe 'user visits /genres' do
     click_on "Create Genre"
 
     expect(current_path).to eq(genres_path)
+    expect(page).to have_content("New Genre Form")
     expect(page).to have_content('metal')
     expect(page).to have_content(@genre1.name)
     expect(page).to have_content(@genre2.name)
     expect(page).to have_content(@genre3.name)
+  end
+  it 'default cannot see create genre page' do
+    visit genres_path
+
+    expect(page).to_not have_content("New Genre Form")
+
+    click_link @genre1.name
+
+    expect(current_path).to eq(genre_path(@genre1))
   end
 end

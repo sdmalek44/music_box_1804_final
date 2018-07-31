@@ -22,5 +22,8 @@ Rails.application.routes.draw do
   end
 
   resources :carts, only: [:create]
-  resources :genres, only: [:index, :create]
+  resources :genres, only: [:index, :show]
+  namespace :admin do
+    resources :genres, only: [:create]
+  end
 end

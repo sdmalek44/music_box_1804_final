@@ -40,7 +40,7 @@ As an admin user,
   When I visit the same genre index page that visitors see,
   I see the same information visitors see,
     And I also see a form to create a new genre. -->
-<!-- 
+<!--
 Testing requirements:
 - users should see at least 2 genres listed on the page
 User Story 4:
@@ -50,17 +50,17 @@ As an admin user,
     And I fill out the form with a new genre's name and submit that form,
   I return to the genre index page,
     And I see all previous genres and the new genre I have just created. -->
-
+<!--
 Testing requirements:
-- I should see at least 2 previous genres listed plus the new genre
-As a Visitor (not logged in)
+- I should see at least 2 previous genres listed plus the new genre -->
+<!-- As a Visitor (not logged in)
 User Story 5:
 
 As a Visitor,
   When I visit the genre index page,
     I cannot see the form to create new genres,
       And I do not have access to any routes that could create a genre.
-    And each genre's name should be a link to that genre's show page.
+    And each genre's name should be a link to that genre's show page. -->
 
 Testing requirements:
 - I should see at least 2 genres listed

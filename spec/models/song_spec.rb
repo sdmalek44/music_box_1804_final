@@ -20,7 +20,7 @@ describe Song, type: :model do
     it{should belong_to(:artist)}
   end
 
-  xit 'can find other songs wit the same rating' do
-    expect(@song1.similar_rated).to eq([@song2, @song3, @song4])
+  it 'can find other songs wit the same rating' do
+    expect(@song1.similar_rated).to eq([@song1, @song2, @song3, @song4])
   end
 end

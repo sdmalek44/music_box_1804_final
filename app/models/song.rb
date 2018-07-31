@@ -16,4 +16,8 @@ class Song < ApplicationRecord
   def generate_slug
     self.slug = title.parameterize
   end
+
+  def similar_rated
+    Song.where(rating: rating)
+  end
 end

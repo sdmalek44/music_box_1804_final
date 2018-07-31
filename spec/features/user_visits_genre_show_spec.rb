@@ -26,6 +26,18 @@ describe 'user visits /genres/#' do
   it 'can see average rating of songs' do
     visit genre_path(@genre1)
 
-    expect(page).to have_content("Average Song Rating:", @genre1.average_rating)
+    expect(page).to have_content("Average Song Rating: #{@genre1.average_rating}")
+  end
+  it 'can see highest rating for song' do
+    visit genre_path(@genre1)
+
+    expect(page).to have_content("Highest Rated Song: #{@genre1.highest_rated.title}")
+    expect(page).to have_content("Rating: #{@genre1.highest_rated.rating}")
+  end
+  it 'can see lowest rating for song' do
+    visit genre_path(@genre1)
+
+    expect(page).to have_content("Lowest Rated Song: #{@genre1.lowest_rated.title}")
+    expect(page).to have_content("Rating: #{@genre1.lowest_rated.rating}")
   end
 end

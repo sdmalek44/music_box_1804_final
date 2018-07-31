@@ -11,4 +11,10 @@ describe Genre, type: :model do
   it 'calculates average song rating for all in genre' do
     expect(@genre1.average_rating).to eq(2)
   end
+  it 'calculates lowest song rating' do
+    expect(@genre1.lowest_rated).to eq(@song1)
+  end
+  it 'calculates highest song rating' do
+    expect(@genre1.highest_rated).to eq(@song2)
+  end
 end

@@ -4,4 +4,10 @@
 <%= song.length %>
 <%= song.play_count %>
 <% end %>
-Average Song Rating: <%= @genre.average_rating unless @genre.songs.empty? %>
+<% unless @genre.songs.empty?  %>
+Average Song Rating: <%= @genre.average_rating %>
+Highest Rated Song: <%= @genre.highest_rated.title %>
+Rating: <%= @genre.highest_rated.rating %>
+Lowest Rated Song: <%= @genre.lowest_rated.title  %>
+Rating: <%= @genre.lowest_rated.rating  %>
+<% end %>

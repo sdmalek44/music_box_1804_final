@@ -5,4 +5,12 @@ class Genre < ApplicationRecord
   def average_rating
     songs.average(:rating)
   end
+
+  def lowest_rated
+    songs.order(rating: :asc).first
+  end
+
+  def highest_rated
+    songs.order(rating: :desc).first
+  end
 end

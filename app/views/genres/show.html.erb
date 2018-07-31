@@ -4,3 +4,4 @@
 <%= song.length %>
 <%= song.play_count %>
 <% end %>
+Average Song Rating: <%= @genre.average_rating unless @genre.songs.empty? %>

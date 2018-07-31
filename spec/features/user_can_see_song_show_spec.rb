@@ -32,7 +32,7 @@ describe 'user sees one song' do
   end
   it 'can see all associated genres' do
     visit song_path(@song1)
-    
+
     expect(page).to have_content("Genres for this song:")
     expect(page).to have_content(@genre1.name)
     expect(page).to have_content(@genre2.name)

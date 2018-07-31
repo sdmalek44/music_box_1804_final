@@ -74,18 +74,18 @@ As a Visitor,
 <!-- Testing requirements:
 - I should see at least 2 songs listed for a genre
 - Also include 1 or more songs that are NOT associated with this genre and ensure -->
-  they do not appear on the page
+  <!-- they do not appear on the page
 User Story 7:
 
 As a Visitor,
   When I visit a song show page,
     I see genre names under a heading that says "Genres for this Song:"
-      and the genres listed are only the genres associated with this song.
+      and the genres listed are only the genres associated with this song. -->
 
-Testing requirements:
+<!-- Testing requirements:
 - I should see at least 2 genres listed for a song
-- Also include 1 or more genres that are NOT associated with this song and ensure
-  they do not appear on the page
+- Also include 1 or more genres that are NOT associated with this song and ensure -->
+  <!-- they do not appear on the page -->
 User Story 8:
 
 As a Visitor,
